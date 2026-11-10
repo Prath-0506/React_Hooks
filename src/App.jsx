@@ -1,10 +1,12 @@
 import React from 'react'
-import Counter from '../Hooks/UseState/Counter'
+
+import FetchApi from '../Hooks/UseEffect/FetchApi'
 
 const App = () => {
   return (
     <div>
-      <Counter/>
+      {/* <Counter/> */}
+      <FetchApi/>
     </div>
   )
 }
